@@ -1,0 +1,21 @@
+{
+  "name": "javascript-learning-project",
+  "version": "1.0.0",
+  "description": "[![JavaScript/](https://img.shields.io/badge/tested%20with-JavaScript-fcdc00.svg?logo=javascript)](https://www.javascript.com/) [![ECMAScript](https://img.shields.io/badge/ECMA-Script-F27B10.svg?logo=ECMA)](https://www.ecma-international.org/) [![Support badge](https://img.shields.io/badge/stackoverflow-JavaScript-fcdc00.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/javascript)",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "npx prettier --write .",
+    "lint:check": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "Adam Cegielka",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.10.0",
+    "prettier": "3.3.3"
+  }
+}

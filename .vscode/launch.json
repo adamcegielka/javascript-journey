@@ -1,0 +1,21 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Basics",
+      "skipFiles": ["<node_internals>/**"],
+      // Course_4
+      // "program": "${workspaceFolder}/Course_4/Course-Lessons/03-typ_number.js"
+      // "program": "${workspaceFolder}/Course_4/Practice-Exercises/02-funkcje-zadanie.js"
+      // Course_7
+      // "program": "${workspaceFolder}/Course_7/Course-Lessons/02_operatory_arytmetyczne.js"
+      "program": "${workspaceFolder}/Course_7/Course-Lessons/03_operatory_porownania_logiczne.js"
+    }
+  ]
+}
