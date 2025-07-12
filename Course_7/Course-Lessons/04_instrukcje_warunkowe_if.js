@@ -5,7 +5,8 @@ document.getElementById("result").innerHTML = "Hello World!";
 // Pierwszy przykład:
 
 var comparison = document.getElementById("comparison");
-var x = 4, y = 11;
+var x = 4,
+  y = 11;
 
 if (x < y) {
   comparison.innerHTML = "True";

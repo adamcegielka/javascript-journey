@@ -9,4 +9,4 @@ function isLandscape(width, height) {
   } else {
     return false;
   }
-}   
+}

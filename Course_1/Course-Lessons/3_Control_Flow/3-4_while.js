@@ -2,8 +2,8 @@
 
 let i = 0;
 while (i <= 5) {
-    console.log('Hello World!', i);
-    i++;
+  console.log("Hello World!", i);
+  i++;
 }
 
 // Countdown
@@ -14,4 +14,3 @@ while (number > 0) {
   console.log(number);
   number--;
 }
-

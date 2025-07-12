@@ -8,17 +8,15 @@
 checkSpeed(130);
 
 function checkSpeed(speed) {
-    const speedLimit = 70;
-    const demeritPointPer5 = 5;
+  const speedLimit = 70;
+  const demeritPointPer5 = 5;
 
-    if (speed < speedLimit + demeritPointPer5) {
-        console.log('Ok');
-        return
-    }
-    
-    const points = Math.floor((speed - speedLimit) / demeritPointPer5);
-    if (points >= 12)
-        console.log('License suspended');
-    else
-        console.log(`Points: ${points}`);
+  if (speed < speedLimit + demeritPointPer5) {
+    console.log("Ok");
+    return;
+  }
+
+  const points = Math.floor((speed - speedLimit) / demeritPointPer5);
+  if (points >= 12) console.log("License suspended");
+  else console.log(`Points: ${points}`);
 }

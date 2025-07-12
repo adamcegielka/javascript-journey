@@ -1,9 +1,9 @@
 // For...Of Loop
 
-let array = ['apple', 'banana', 'cherry'];
+let array = ["apple", "banana", "cherry"];
 
 for (let fruit of array) {
-    console.log(fruit);
+  console.log(fruit);
 }
 
 //  Iterating through letters in a string
@@ -14,7 +14,7 @@ for (const char of word) {
 }
 
 // no duplicates
-const uniqueItems = new Set(['a', 'b', 'a', 'c']);
+const uniqueItems = new Set(["a", "b", "a", "c"]);
 
 for (const item of uniqueItems) {
   console.log(item);
