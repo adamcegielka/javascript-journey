@@ -46,6 +46,7 @@ console.log(`Is $20 affordable in range 4? ${priceRange4.isAffordable(20)}`); //
 console.log(`Is $50 affordable in range 3? ${priceRange3.isAffordable(50)}`); // false
 console.log(`Is $50 affordable in range 4? ${priceRange4.isAffordable(50)}`); // true
 
+// Create an array of price ranges with labels and tooltips
 let priceRange5 = [
   { label: "$", tooltip: "inexpensive", min: 0, max: 20 },
   { label: "$$", tooltip: "moderate", min: 21, max: 50 },
