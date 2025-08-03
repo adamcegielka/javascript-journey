@@ -1,4 +1,4 @@
-// Mapping of an Array
+// Mapping an Array
 
 const numbers = [1, 2, 3, 4, 5];
 const mappedNumbers = numbers.map((num) => num * 2);
